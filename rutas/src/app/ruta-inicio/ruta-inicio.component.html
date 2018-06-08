@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm12"> Inicio </div>
+    <div class="col-sm6" style="background: khaki">
+      <ul>
+      <li><a [routerLink]="['/usuario']">
+        Usuario
+      </a></li>
+    </ul>
+      <ul>
+        <li><a [routerLink]="['/permisos']">
+          Permisos
+        </a></li>
+      </ul>
+    </div>
+    <div class="col-sm6" style="background: azure">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
